@@ -4,7 +4,8 @@ from django.db import models
 
 
 class MyModel(models.Model):
-    name = models.CharField(max_length=32)
+    name = models.CharField(max_length=32, unique=True)
 
     class Meta:
-        unique_together = ("name", )
+        pass
+        # unique_together = ("name", )
