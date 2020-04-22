@@ -1,6 +1,7 @@
 **Xiang Wang @ 2020-04-22 22:29:35**
 
 
+this bug has been posted at [django ticket](https://code.djangoproject.com/ticket/31503).  
 I met a problem when I convert a `unique_together` to the `unique=True` attribute.
 
 1. first commit, everything is ok
